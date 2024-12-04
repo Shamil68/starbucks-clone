@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+}
+
+.left-side {
+    background-color: white;
+    width: 50%;
+    height: 107px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.right-side {
+    width: 50%;
+    height: 105px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 107px;
+    height: 70px;
+    cursor: pointer;
+}
+
+header {
+    height: 100px;
+    display: flex;
+}
+
+.link {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 13px;
+}
+
+.link:hover {
+    color: darkgreen;
+}
+
+.find-store {
+    color: black;
+    text-decoration: none;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.find-store:hover {
+    color: darkgreen;
+}
+
+.sign-in {
+    border-width: thin;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 75px;
+    height: 31px;
+    background-color: #fff;
+    color: black;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join-now {
+    border-width: thin;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 93px;
+    height: 33px;
+    color: #fff;
+    background-color: black;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join {
+    padding-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 50px;
+}
+
+.sign-in:hover {
+    background-color: rgb(186, 184, 184);
+}
+
+.join-now:hover {
+    background-color: rgb(186, 184, 184);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 21px;
+}
+
+.location {
+    display: flex;
+}
+
+
+container {
+    display: flex;
+    margin: 30px;
+}
+
+
+.left-div1 {
+    width: 50%;
+    height: 550px;
+    background-color: #0b7a55;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-div2 {
+    width: 50%;
+    height: 370px;
+    background-color: #edebe9;
+
+}
+
+.heading-div1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraph-div1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-top: -30px;
+}
+
+.heading-text1 {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+
+
+}
+
+.paragraph-text1 {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+
+}
+
+.order-now-div1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.order-now-button1 {
+    width: 110px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #0b7a55;
+    ;
+    color: #fff;
+    border-width: thin;
+    border-color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.order-now-button1:hover {
+    background-color: rgb(150, 148, 148);
+    ;
+
+}
+
+.left-div-text1 {
+    margin-top: 65px;
+}
+
+.right-div-text1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.heading-div2 {
+    text-align: center;
+}
+
+.join-div1 {
+    text-align: center;
+
+}
+
+.join-button1 {
+    width: 110px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #edebe9;
+    color: #0b7a55;
+    border-width: thin;
+    border-color: #0b7a55;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.join-button1:hover {
+    background-color: rgb(150, 148, 148);
+    ;
+
+}
+
+.paragraph-text2 {
+    color: #0b7a55;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+.heading-text2 {
+    color: #0b7a55;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.left-div3 {
+    background-color: #06ce8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragraph-div3 {
+    text-align: center;
+
+}
+
+.paragraph-text3 {
+    font-size: 25px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.heading-div3 {
+    text-align: center;
+}
+
+.heading-text3 {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.order-now-div2 {
+    text-align: center;
+}
+
+.order-now-button2 {
+    width: 110px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #06ce8d;
+    color: black;
+    border-width: thin;
+    border-color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.order-now-button2:hover {
+    background-color: rgb(150, 148, 148);
+    cursor: pointer;
+}
+
+.right-div4 {
+    background-color: rgb(212, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-div {
+    text-align: center;
+}
+
+.gift-button {
+    width: 122px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(212, 7, 7);
+    color: #fff;
+    border-width: thin;
+    border-color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.gift-button:hover {
+    background-color: rgb(150, 148, 148);
+    ;
+}
+
+.heading-div4 {
+    text-align: center
+}
+
+.heading-text4 {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    height: 120px;
+    line-height: 60px;
+
+}
+
+.paragraph-div4 {
+    text-align: center;
+}
+
+.paragraph-text4 {
+    font-size: 20px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    height: 108px;
+    letter-spacing: -0.16px;
+    line-height: 36px;
+
+}
+
+.left-div5 {
+    background-color: rgb(145, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-div5 {
+    text-align: center;
+}
+
+.heading-text5 {
+
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    height: 36px;
+    letter-spacing: -0.16px;
+    line-height: 36px;
+    ;
+
+}
+
+.paragraph-div5 {
+    text-align: center;
+}
+
+.paragraph-text5 {
+
+    font-size: 19px;
+    font-weight: 400;
+    height: 99.75px;
+    letter-spacing: -0.16px;
+    line-height: 33.25px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+
+}
+
+.learn-more-div {
+    text-align: center;
+}
+
+.learn-more-button {
+    width: 115px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(145, 11, 11);
+    ;
+    color: #fff;
+    border-width: thin;
+    border-color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.learn-more-button:hover {
+    background-color: rgb(150, 148, 148);
+    ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 25.2px;
+}
+
+.links {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    letter-spacing: -0.16px;
+    line-height: 44px;
+    cursor: pointer;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+}
+
+.head1 {
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    height: 28.5px;
+    letter-spacing: -0.16px;
+    line-height: 28.5px;
+}
+
+
+.footer-div2 {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+}
+
+.links:hover {
+    color: black;
+}
+
+.links1 {
+    text-decoration: none;
+    color: black;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 44px;
+}
+
+.end-line {
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 14px;
+}
